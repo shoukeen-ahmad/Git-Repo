@@ -10,6 +10,7 @@ jobs:
 
     steps:
         - uses: actions/checkout@v5
+        
         - name: my fisrt step
           run: |
              pwd
@@ -20,6 +21,7 @@ jobs:
           run: |
               docker -v
               docker ps
+              
         - name: Checking nginx...
          run:
             systemctl status nginx
