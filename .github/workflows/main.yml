@@ -26,4 +26,8 @@ jobs:
           run:
             systemctl status nginx || true
 
+        - name: Deleteing docker from machine
+          run: 
+             apt remove docker
+
          
