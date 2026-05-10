@@ -12,7 +12,7 @@ jobs:
         - uses: actions/checkout@v5
         - name: my fisrt step
           run:
-             date
+             time
              pwd
              echo "This is fisrt repo"
              
