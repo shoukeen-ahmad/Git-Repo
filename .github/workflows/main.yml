@@ -13,4 +13,4 @@ jobs:
         - name: my fisrt step
           run:
              echo "This is fisrt repo"
-               uname -a
+             date
