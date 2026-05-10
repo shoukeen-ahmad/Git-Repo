@@ -23,7 +23,7 @@ jobs:
               docker ps
               
         - name: Checking nginx...
-         run:
+          run:
             systemctl status nginx
 
          
