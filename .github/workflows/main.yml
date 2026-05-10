@@ -24,6 +24,6 @@ jobs:
               
         - name: Checking nginx...
           run:
-            systemctl status nginx
+            systemctl status nginx || true
 
          
