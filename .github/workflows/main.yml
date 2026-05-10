@@ -11,6 +11,6 @@ runs-on: ubuntu-latest
 steps:
 - uses: actions/checkout@v4
 - name: my fisrt step
-run:
-  echo "This is fisrt repo"
-  uname -a
+  run:
+      echo "This is fisrt repo"
+      uname -a
