@@ -16,3 +16,12 @@ jobs:
              date
              echo "This is fisrt repo"
              
+        - name: check docker
+          run: |
+              docker -v
+              docker ps
+        - name: Checking nginx...
+         run:
+            systemctl status nginx
+
+         
