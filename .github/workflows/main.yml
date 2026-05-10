@@ -28,6 +28,6 @@ jobs:
 
         - name: Deleteing docker from machine
           run: 
-             apt remove docker
+            sudo apt remove docker
 
          
